@@ -221,7 +221,7 @@ button:hover{
     .artist img{
         max-width: 80%;
         height: 20vh;
-        height: auto;
+        /* height: auto; */
         object-fit: cover;
     }
 
@@ -277,7 +277,7 @@ button:hover{
         /* background-attachment: fixed; */
         background-repeat: no-repeat;
         background-size: cover;
-        object-fit: cover;
+        object-fit: fill;
     }
 
     .title-container hr{
@@ -308,6 +308,7 @@ button:hover{
     .artist img{
         width:85%;
         max-width: 100%;
+        height: auto;
         object-fit: contain;
     }
 
